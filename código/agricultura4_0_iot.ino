@@ -2,15 +2,6 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 
-#define TRIGGERPIN 4 //gpio4  
-#define ECHOPIN 6 //gpio5
-
-const int ledPin = 13;
-//SimpleTimer timer;
-String myString;
-long duration;
-int distance;
-int safetyDistance;
 int valor_analogico;
 
 // Set these to run example.
